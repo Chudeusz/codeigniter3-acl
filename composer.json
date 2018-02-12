@@ -1,0 +1,32 @@
+{
+    "name": "chudeusz/codeigniter3-acl",
+    "type": "library",
+    "description": "CodeIgniter3 ACL",
+    "keywords": ["codeigniter3", "acl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kamil Karpiński"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ACL\\": "src/ACL/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ACL\\Test\\": "test/ACL/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.8-dev"
+        }
+    }
+}
