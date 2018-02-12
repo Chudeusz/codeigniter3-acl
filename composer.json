@@ -10,18 +10,18 @@
         }
     ],
     "require": {
-        "php": "^5.3.3 || ^7.0"
+        "php": "^5.6 || ^7.0"
     },
     "require-dev": {
     },
     "autoload": {
         "psr-4": {
-            "ACL\\": "src/ACL/"
+            "Acl\\": "src/ACL/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ACL\\Test\\": "test/ACL/"
+            "Acl\\Test\\": "test/ACL/"
         }
     },
     "extra": {

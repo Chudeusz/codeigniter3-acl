@@ -1,9 +1,9 @@
 <?php
 
-namespace ACL;
+namespace Acl;
 
 
-class Acl
+class Initializer
 {
 
     const DEFAULT_LOCALE = 'en_US';
