@@ -13,7 +13,6 @@
  */
 
 namespace Acl;
-use Acl\Initializer;
 
 class Aclmodels {
 
