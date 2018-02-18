@@ -13,7 +13,23 @@
  */
 
 namespace Acl;
+use Acl\Initializer;
 
-class Model {
+class Aclmodels {
 
+    protected $CI;
+    protected $kamil;
+    /**
+     * ACLModel constructor.
+     */
+    public function __construct()
+    {
+        $this->CI = &get_instance;
+    }
+
+    public function kamil()
+    {
+        $this->kamil = 'Kamil';
+        return $this->kamil;
+    }
 }
