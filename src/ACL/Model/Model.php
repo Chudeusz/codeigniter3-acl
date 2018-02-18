@@ -11,7 +11,8 @@
  * @author      Kamil Karpiński
  * @link        https://github.com/MrChudy923/SOSWInformatyka-CMS
  */
-namespace Acl\Models;
+
+namespace Acl;
 
 class Model {
 
