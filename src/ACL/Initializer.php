@@ -2,7 +2,6 @@
 
 namespace Acl;
 
-
 class Initializer
 {
     protected $CI;
@@ -205,4 +204,5 @@ class Initializer
         }
         return $this->role;
     }
+
 }
