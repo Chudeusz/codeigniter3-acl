@@ -1,35 +1,24 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * CodeIgniter ACL Class
- *
- * This class enables apply permissions to controllers, controller and models, as well as more fine tuned permissions '
- * at code level.
- *
- * @package     CodeIgniter
- * @subpackage  Models
- * @category    Models
- * @author      Kamil Karpiński
- * @link        https://github.com/MrChudy923/SOSWInformatyka-CMS
- */
+<?php
 
 namespace Acl;
-use Acl\Initializer;
 
 class Aclmodels {
 
-    protected $CI;
-    protected $kamil;
+    public $CI;
+    public $kamil;
     /**
      * ACLModel constructor.
      */
     public function __construct()
     {
-        $this->CI = &get_instance;
+        log_message('info', 'ACL model is loaded now.');
     }
 
-    public function kamil()
+    public function test()
     {
-        $this->kamil = 'Kamil';
-        return $this->kamil;
+        return json_encode(array(
+            'status' => 'ok',
+            'message' => 'Test ok'
+        ));
     }
 }
