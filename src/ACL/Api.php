@@ -6,11 +6,11 @@ class Api {
 
     public $CI;
     /**
-     * ACLModel constructor.
+     * Api constructor.
      */
     public function __construct()
     {
-        log_message('info', 'ACL model is loaded now.');
+        log_message('info', 'Api is loaded now.');
     }
 
     public function api($api)
