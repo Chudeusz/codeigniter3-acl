@@ -19,7 +19,7 @@ class Api {
             case 'test':
                 return json_encode(array(
                     'status' => 'ok',
-                    'message' => 'Test ok'
+                    'message' => 'Wpisano poprawny warunek'
                 ));
                 break;
             default:
